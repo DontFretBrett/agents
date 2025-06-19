@@ -1,34 +1,38 @@
 # src/research_crew/config/tasks.yaml
 research_task:
   description: >
-    Conduct thorough research on company {company}. Focus on:
-    1. Current company status and health
-    2. Historical company performance
-    3. Major challenges and opportunities
-    4. Recent news and events
-    5. Future outlook and potential developments
+    Conduct thorough research on AI advancements and innovations in the banking and financial sector. Focus on:
+    1. Latest AI technologies being adopted by major banks and financial institutions
+    2. Emerging AI trends in financial services (e.g., automated trading, risk assessment, fraud detection)
+    3. Notable implementations and success stories
+    4. Regulatory developments and compliance considerations
+    5. Challenges and opportunities in AI adoption
+    6. Future outlook for AI in banking
 
     Make sure to organize your findings in a structured format with clear sections.
   expected_output: >
-    A comprehensive research document with well-organized sections covering
-    all the requested aspects of {company}. Include specific facts, figures,
-    and examples where relevant.
-  agent: researcher
+    A comprehensive research document covering all major AI developments in the financial sector,
+    with specific examples, implementation details, and real-world applications. Include
+    concrete examples from major banks and financial institutions.
+  agent: ai_researcher
 
 analysis_task:
   description: >
-    Analyze the research findings and create a comprehensive report on {company}.
+    Analyze the research findings and create a comprehensive report on AI in banking and finance.
     Your report should:
-    1. Begin with an executive summary
-    2. Include all key information from the research
-    3. Provide insightful analysis of trends and patterns
-    4. Offer a market outlook for company, noting that this should not be used for trading decisions
-    5. Be formatted in a professional, easy-to-read style with clear headings
+    1. Begin with an executive summary highlighting key AI trends in finance
+    2. Analyze the impact of AI on different banking functions (retail, investment, risk, etc.)
+    3. Evaluate the maturity and effectiveness of different AI applications
+    4. Discuss implementation challenges and success factors
+    5. Provide insights on future developments and potential disruptions
+    6. Include recommendations for financial institutions considering AI adoption
+    
+    Format the report professionally with clear sections and supporting evidence.
   expected_output: >
-    A polished, professional report on {company} that presents the research
-    findings with added analysis and insights. The report should be well-structured
-    with an executive summary, main sections, and conclusion.
-  agent: analyst
+    A detailed, well-structured report that presents a clear picture of AI's current
+    and future role in banking and finance. The report should be accessible to both
+    technical and business audiences, with clear examples and practical insights.
+  agent: fintech_analyst
   context:
     - research_task
   output_file: output/report.md

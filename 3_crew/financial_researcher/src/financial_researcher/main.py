@@ -8,14 +8,10 @@ os.makedirs('output', exist_ok=True)
 
 def run():
     """
-    Run the research crew.
+    Run the AI in finance research crew.
     """
-    inputs = {
-        'company': 'Apple'
-    }
-
     # Create and run the crew
-    result = ResearchCrew().crew().kickoff(inputs=inputs)
+    result = ResearchCrew().crew().kickoff()
 
     # Print the result
     print("\n\n=== FINAL REPORT ===\n\n")

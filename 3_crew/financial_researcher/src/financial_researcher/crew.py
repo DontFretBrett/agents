@@ -5,20 +5,20 @@ from crewai_tools import SerperDevTool
 
 @CrewBase
 class ResearchCrew():
-    """Research crew for comprehensive topic analysis and reporting"""
+    """Research crew for analyzing AI advancements in banking and finance"""
 
     @agent
-    def researcher(self) -> Agent:
+    def ai_researcher(self) -> Agent:
         return Agent(
-            config=self.agents_config['researcher'],
+            config=self.agents_config['ai_researcher'],
             verbose=True,
             tools=[SerperDevTool()]
         )
 
     @agent
-    def analyst(self) -> Agent:
+    def fintech_analyst(self) -> Agent:
         return Agent(
-            config=self.agents_config['analyst'],
+            config=self.agents_config['fintech_analyst'],
             verbose=True
         )
 
@@ -37,7 +37,7 @@ class ResearchCrew():
 
     @crew
     def crew(self) -> Crew:
-        """Creates the research crew"""
+        """Creates the AI in finance research crew"""
         return Crew(
             agents=self.agents,
             tasks=self.tasks,
