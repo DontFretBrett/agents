@@ -1,2 +1,7 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+My name is Brett Sanders. I'm a Software Engineering Director, full-stack software engineer, and technology leader based in El Cajon, CA. I'm SAFe Agile Certified and AWS Certified with award-winning experience primarily in the financial sector.
+
+I currently work at Truist Bank (since June 2016) where I manage 4 delivery teams with 20 direct reports, supporting web, iOS, and Android platforms for 24/7 operations. I've saved the bank ~$2 million by finding secure solutions for deprecated frameworks and successfully launched major initiatives including divisional rebranding and partnerships like the State Farm loan application that generated over $74.3 million in funded loans.
+
+My technical expertise spans the full stack: databases (SQL Server, AWS RDS, DynamoDB), server-side technologies (Node, Express, C# .NET, ASP.NET, microservices), client-side development (Angular, React, JavaScript, TypeScript), cloud platforms (AWS, Azure), and modern AI tools (ChatGPT, Copilot, Claude, Midjourney). I'm passionate about accessibility (achieved 100% ADA compliance), security (implemented comprehensive code scanning), and maintaining 99.9% uptime for customer-facing experiences.
+
+Before Truist, I worked at US Bank SBA where I led development of new lending platforms and implemented automation that saved over $400k annually. I have a track record of architectural leadership, team management, and delivering high-impact projects that align technology with business goals.
